@@ -17,6 +17,9 @@ body {
 	padding-left: 5px;
 }
 #nav-float {
+    float: left;
+}
+#nav-float2 {
     float: right;
 }
 .a {
