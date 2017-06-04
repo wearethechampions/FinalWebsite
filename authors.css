@@ -1,0 +1,129 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url('marcos.jpg');
+	background-repeat: no-repeat;
+	background-size:  cover;
+	background-attachment: fixed;
+}
+#nav {
+    list-style-type: none;
+    padding-top: -1px;
+	padding-right: 125px;
+    overflow: hidden;
+    background-color: #2f2e2e;
+	height: 50px;
+}
+#nav-float {
+    float: right;
+}
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+.active {
+    background-color: grey;
+	display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+li a:hover {
+    background-color: grey;
+	text-decoration: none;
+}
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 10px 4px 18px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+.say {
+	font-family: ISOCPEUR;
+	font-size: 80px;
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+	padding-bottom: 2%;
+}
+.container {
+	width: 800px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	border-radius: 2%;
+	margin-left: 9%;
+}
+#text {
+	font-family: Tempus Sans ITC;
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 3%;
+	color: #000000;
+	opacity: 1.0;
+}
+#authors {
+	width: 140px;
+	background-size: cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+}
+.maricar {
+	margin-top: -15%;
+	margin-left: 53%;
+}
+.joanna {
+	margin-top: -15%;
+	margin-left: 75%;
+}
+.nibay {
+	margin-top: 20%;
+	margin-left: 7%;
+}
+.kayla {
+	margin-top: -15%;
+	margin-left: 30%;
+
+}
+.hya {
+	margin-top: 5%;
+	margin-left: 19%;
+}
+.ji {
+	margin-top: -15%;
+	margin-left: 42%;
+}
+.justin {
+	margin-top: -17%;
+	margin-left: 65%;
+}
