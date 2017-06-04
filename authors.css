@@ -112,6 +112,8 @@ input[type=text]:focus {
 .nibay {
 	margin-top: 30%;
 	margin-left: 7%;
+	background-color: #2f2e2e;
+	color: white;
 }
 .kayla {
 	margin-top: -15%;
