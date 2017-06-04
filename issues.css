@@ -2,10 +2,10 @@
 	margin: 0px;
 	padding: 0px;
 }
-.bg{
-    background-image: url("martial.jpg");
-    height: 50%; 
-    background-position: center;
+.header {
+	height: 250px;
+	width: 100%;
+	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,23 +68,27 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
-.container{
-	position: relative;
-	margin-left: 5%;
-	margin-right: 6%;
-    margin-top: 25px;
-	height: auto;
-	overflow: hidden;
+div.column {
+    -webkit-columns: 250px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 250px 2; /* Firefox */
+    columns: 250px 2;
+	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
 }
-.left-half {
-  float: left;
-  width: 65%;
+.highlight {
+   background-color: #2f2e2e;
+   padding: 13px;
+   color: white;
+  font-size: 20px;
+  position: relative;
+  font-family: Verdana, Geneva, sans-serif;
 }
-.right-half {
-  float: left;
-  width: 35%;
-}
-#title {
+ a.nounderline {text-decoration: none; }
+ section {
+	 margin-left: 5;
+ }
+ #title {
   color: black;
   font-size: 40px;
   font-family: Impact, Charcoal, sans-serif;
@@ -104,42 +108,17 @@ input[type=text]:focus {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 150%;
 }
-.caption {
-  color: #999999;
-  font-size: 12px;
-  line-height: 140%;
+.atrocities {
+	margin-left: 3%;
+	margin-top: 5%;
 }
-.design {
-  padding: 2%;
-  background: silver;
-  border: 1px solid black;
-  border-radius: .25em;
-}
-article {
-  margin-right: 40px;
-}
-.highlight {
-   background-color: #2f2e2e;
-   padding: 13px;
-   color: white;
-  font-size: 20px;
-  position: relative;
-  font-family: Verdana, Geneva, sans-serif;
-}
- a.nounderline {text-decoration: none; }
- section {
-	 margin-left: 5;
- }
+
  a:hover {opacity: 0.5}
- .hero {
-	 margin-left: -180%;
-	 margin-top: -135%;
- }
- .wealth {
-	  margin-left: -180%;
-	 margin-top: 2%;
- }
- .press {
-	margin-left: -5%;
-	margin-top: -150%;
- }
+ .container{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 6%;
+    margin-top: 25px;
+	height: auto;
+	overflow: hidden;
+}
