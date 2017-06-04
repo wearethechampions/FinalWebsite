@@ -9,12 +9,15 @@
 #nav {
     list-style-type: none;
     padding-top: -1px;
-	padding-right: 125px;
     overflow: hidden;
     background-color: #2f2e2e;
 	height: 50px;
+	padding-left: 5px;
 }
 #nav-float {
+    float: left;
+}
+#nav-float2 {
     float: right;
 }
 .a {
