@@ -101,66 +101,37 @@ input[type=text]:focus {
 	background-position: center;
 	border-radius: 100%;
 }
-.maricar {
-	margin-left: 30%;
-}
-.joanna {
-	margin-left: 40%;
-}
-.nibay {
-	margin-left: 3%;
-}
-.kayla {
-	margin-left: 20%;
-
-}
-.hya {
-	margin-left: 65%;
-}
-.ji {
-	margin-left: 42%;
-}
-.justin {
-	margin-left: 65%;
-}
 .nibayinfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .kaylainfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18x;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .joannainfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18x;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .maricarinfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .jiinfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18x;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .justininfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18x;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .hyainfo {
-	background-color: #2f2e2e;
 	color: white;
 	font-size: 18px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
