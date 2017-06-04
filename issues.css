@@ -76,6 +76,7 @@ input[type=text]:focus {
 .left-half {
   float: left;
   width: 65%;
+margin-left: 1%;
 }
 .right-half {
   float: left;
