@@ -79,7 +79,7 @@ input[type=text]:focus {
 	background-color: #ffffff;
 	opacity: 0.7;
 	border-radius: 2%;
-	margin-left: 9%;
+	margin: center;
 }
 #text {
 	font-family: Euphemia;
