@@ -80,6 +80,7 @@ input[type=text]:focus {
 	opacity: 0.7;
 	border-radius: 2%;
 	margin: 35px;
+	margin-right: 9px;
 }
 #text {
 	font-family: Euphemia;
