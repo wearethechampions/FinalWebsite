@@ -101,9 +101,6 @@ input[type=text]:focus {
 	background-position: center;
 	border-radius: 100%;
 }
-.authorsinfo {
-	display: inline-block;
-}
 .maricar {
 	margin-left: 30%;
 }
