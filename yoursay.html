@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marcos</title>
+  <link rel="stylesheet" href="yoursay.css">
+ </head>
+<body>
+	<nav>
+		<ul id="nav">
+			<li id="nav-float"><a class="active" href="index.html"> HOME </a></li>
+			<li id="nav-float"><a class="a" href="biography.html"> BIOGRAPHY </a></li>
+			<li id="nav-float"><a class="a" href="martial.html"> MARTIAL LAW </a></li>
+			<li id="nav-float"><a class="a" href="issues.html" > ISSUES </a></li>
+			<li id="nav-float"><a class="a" href="authors.html" > AUTHORS' OPINION </a></li>
+			<li id="nav-float"><a class="a" href="yoursay.html" > YOUR SAY </a></li>
+			<li id="nav-float"><a class="a" href="reference.html" > REFERENCE </a></li>
+			<li id="nav-float2"><a class="a" href="#" > <input type="text" name="search" placeholder="Search.."> </a></li> 
+		</ul>
+	</nav>
+	<section>
+		<form method='post'>
+			Name: &emsp;<input type='text' name='name' id='name' /><br />
+
+			Email: &emsp; <input type='text' name='email' id='email' /><br />
+
+			Website:  <input type='text' name='website' id='website' /><br />
+
+			Comment:<br />
+				<textarea name='comment' id='comment'></textarea><br />
+
+				<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+				<input type='submit' value='Submit' />  
+		</form>
+	</section>
+</body>
+</html>
