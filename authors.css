@@ -112,8 +112,6 @@ input[type=text]:focus {
 .nibay {
 	margin-top: 30%;
 	margin-left: 7%;
-	background-color: #2f2e2e;
-	color: white;
 }
 .kayla {
 	margin-top: -15%;
@@ -133,5 +131,23 @@ input[type=text]:focus {
 	margin-left: 65%;
 }
 .nibayinfo {
+	font-size: 35px;
+}
+.kaylainfo {
+	font-size: 35px;
+}
+.joannainfo {
+	font-size: 35px;
+}
+.maricarinfo {
+	font-size: 35px;
+}
+.jiinfo {
+	font-size: 35px;
+}
+.justininfo {
+	font-size: 35px;
+}
+.hyainfo {
 	font-size: 35px;
 }
