@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.header {
+	height: 250px;
+	width: 100%;
+}
+#nav {
+    list-style-type: none;
+    padding-top: -1px;
+	padding-right: 125px;
+    overflow: hidden;
+    background-color: #2f2e2e;
+	height: 50px;
+}
+#nav-float {
+    float: right;
+}
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+.active {
+    background-color: grey;
+	display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 18px;
+}
+li a:hover {
+    background-color: grey;
+	text-decoration: none;
+}
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 10px 4px 18px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+#container{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 6%;
+    margin-top: 25px;
+	height: auto;
+	overflow: hidden;
+}
+#title {
+  color: black;
+  font-size: 40px;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 2px;
+   text-align: center;
+   font-weight: bold;
+   line-height: 100%;
+   background: #a6a6a6;
+   border: solid;
+   opacity: 0.89;
+   border-radius: 5px;
+   padding: 8px;
+}
+.title {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 5%;
+}
+.one {
+	font-family: Segoe UI;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+section {
+  color: black;
+  font-size: 16px;
+  font-family: Segoe UI;
+  line-height: 150%;
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 9%;
+  padding: 2%;
+  border: 1px;
+  border-radius: .25em;
+}
